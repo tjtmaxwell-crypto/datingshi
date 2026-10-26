@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --paper: #f3eadc;
+  --ink: #2c2118;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Source Han Sans SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: #f4c7b4;
+}
+
+:focus-visible {
+  outline: 2px solid #d3542c;
+  outline-offset: 2px;
+}
